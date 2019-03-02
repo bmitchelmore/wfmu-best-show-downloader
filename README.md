@@ -2,6 +2,8 @@
 
 This node.js script will download the best show archive from wfmu.
 
+It, naturally, requires node.js and npm. If you're unsure of how to install node.js and npm on your platform, go to https://nodejs.org to find out.
+
 To start, make sure you have all the appropriate dependencies by calling:
 
     $ npm install
