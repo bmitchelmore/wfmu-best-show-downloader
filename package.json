@@ -1,0 +1,21 @@
+{
+  "name": "wfmu-best-show-downloader",
+  "version": "1.0.0",
+  "description": "Command line tool to download Best Show episodes from the WFMU archives.",
+  "main": "download.js",
+  "scripts": {
+    "download": "node download.js"
+  },
+  "author": "Blair Mitchelmore",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmitchelmore/wfmu-best-show-downloader.git"
+  },
+  "dependencies": {
+    "mkdirp": "0.5.1",
+    "prettysize": "2.0.0",
+    "puppeteer": "1.12.2",
+    "sanitize-filename": "1.6.1"
+  }
+}
